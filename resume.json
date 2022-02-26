@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "theme": "elegant",
+    "canonical": "",
+    "version": "",
+    "lastModified": ""
+  },
+  "basics": {
+    "name": "Michael Juniper",
+    "label": "Principal Software Developer",
+    "picture": "https://avatars.githubusercontent.com/u/942837?v=4",
+    "email": "mike@mikejuniper.com",
+    "phone": "970.430.6685",
+    "website": "mikejuniper.com",
+    "summary": "I am a mostly front-end web developer, though I've done some back end stuff in the past. In recent years my particular focus has been on \"front of the front end\" - where HTML, CSS, & Javascript come together to produce the UI that users experience.",
+    "location": {
+      "address": "2268 Tarragon Lane",
+      "postalCode": "80521",
+      "city": "Fort Collins",
+      "countryCode": "US",
+      "region": "CO"
+    },
+    "profiles": [
+      {
+        "network": "github",
+        "username": "mjuniper",
+        "url": "https://github.com/mjuniper/"
+      },
+      {
+        "network": "linkedin",
+        "username": "mjuniper",
+        "url": "https://www.linkedin.com/in/mjuniper"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Esri",
+      "location": "Fort Collins, CO",
+      "description": "",
+      "position": "Principal Software Engineer",
+      "website": "https://dc.esri.com/",
+      "startDate": "2013-09",
+      "summary": "I lead a team of developers building ArcGIS Hub. I build UI using Ember.js & Stenciljs but I have my eye on the full stack.",
+      "highlights": []
+    },
+    {
+      "name": "DTS Agile",
+      "location": "Fort Collins, CO",
+      "description": "",
+      "position": "Senior Software Developer",
+      "website": "https://www.dtsgis.com/our-services/services/",
+      "startDate": "2008-01",
+      "endDate": "2013-09",
+      "summary": "I architected, and built fairly complex web applications for state DOTs. I often also served as a technical project manager with frequent client contact. I occasionally supervised junior developers. The apps I built usually dealt with management or visualization of traffic data or highway construction projects. There was typically a mapping component; sometimes it was central to the app, sometimes not.",
+      "highlights": [
+        "Online Transportation Information System (OTIS) - Colorado Department of Transportation: A public facing portal for disseminating CDOT's traffic count and highway data to the public.",
+        "Traffic Analysis Geospatial Information System (TAGIS) - Colorado Department of Transportation",
+        "Interactive Funding Map - National Center for Safe Routes to School: A web mapping application which visualizes federally funded Safe Routes to Scholl projects across the US."
+      ]
+    },
+    {
+      "name": "Sanborn Map Company",
+      "location": "Fort Collins, CO",
+      "description": "",
+      "position": "GIS Software Developer",
+      "website": "https://www.sanborn.com/",
+      "startDate": "2007-01",
+      "endDate": "2007-12",
+      "summary": "Served as a member of a team building desktop applications for government clients utilizing Microsoft .NET and ESRI ArcObjects.",
+      "highlights": []
+    },
+    {
+      "name": "Ramsey County Surveyor's Office",
+      "location": "St Paul, MN",
+      "description": "",
+      "position": "GIS Technician",
+      "website": "https://www.ramseycounty.us/residents/property/maps-surveys",
+      "startDate": "2004-09",
+      "endDate": "2006-12",
+      "summary": "Developed various ArcGIS extensions to automate colleague's tasks. Served as guest lecturer on ArcGIS at St Paul College.",
+      "highlights": []
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Juniata College",
+      "area": "Geology",
+      "studyType": "Bachelor of Science",
+      "startDate": "1988",
+      "endDate": "1992-05-10",
+      "gpa": "",
+      "courses": [
+        ""
+      ]
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Front-end",
+      "level": "Ninja",
+      "keywords": [
+        "HTML / JSX",
+        "SCSS / CSS / PostCSS",
+        "Javascript / Typescript",
+        "Node / npm",
+        "Stenciljs",
+        "Ember.js",
+        "React"
+      ]
+    },
+    {
+      "name": "Back-end",
+      "level": "I can get by",
+      "keywords": [
+        "Node / Express / NestJS",
+        "Postgres",
+        "SQL",
+        "Python"
+      ]
+    }
+  ],
+  "languages": [],
+  "interests": [
+    {
+      "name": "Birds / Birding"
+    },
+    {
+      "name": "Mountain Biking"
+    },
+    {
+      "name": "Skiing"
+    },
+    {
+      "name": "Transportation / Energy Issues"
+    }
+  ],
+  "references": [],
+  "projects": []
+}
+}
