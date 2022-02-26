@@ -1,1 +1,405 @@
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Michael Juniper</title>
 
+	<style>
+	html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1.5;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+html,
+button,
+input,
+textarea {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto', sans-serif;
+}
+
+:root {
+  --text: #333333;
+  --headline: #c9cccf;
+  --sub-headline: #96999b;
+  --primary: rgb(207, 214, 255);
+  --secondary: rgb(238, 245, 255);
+}
+
+body {
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  max-width: 600px;
+  color: var(--text);
+}
+
+h1 {
+  font-size: 26px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  margin-top: 2rem;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--headline);
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+h3 {
+  display: block;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.2px;
+  margin-top: 0.5rem;
+}
+
+h4 {
+  font-size: 14px;
+  color: var(--sub-headline);
+  padding-top: 0.5rem;
+  padding-bottom: 0.25rem;
+}
+
+p,
+li {
+  margin-bottom: 0.25rem;
+  font-size: 14px;
+}
+
+a {
+  transition: box-shadow 160ms ease 0s;
+  box-shadow: var(--secondary) 0px -9px 0px inset;
+  border-bottom: 2px solid var(--primary);
+  text-decoration: none;
+  color: var(--text);
+}
+
+a:hover {
+  box-shadow: var(--primary) 0px -1.2em 0px inset;
+}
+
+section ul {
+  margin-top: 0.5rem;
+  margin-left: 2.5rem;
+  list-style: disc;
+}
+
+.contact {
+  padding-top: 2rem;
+}
+
+.contact span {
+  width: 100px;
+  display: inline-block;
+}
+
+.skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.skills li {
+  margin-bottom: 1rem;
+  margin-right: 0.5rem;
+  padding: 0.25rem 1rem;
+  background-color: var(--secondary);
+  white-space: nowrap;
+}
+
+.position {
+  margin-bottom: 1.5rem;
+}
+
+.grey {
+  color: var(--sub-headline);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pdf {
+  color: var(--headline);
+  transition: color ease 160ms;
+  border: none;
+  box-shadow: none;
+}
+
+.pdf:hover {
+  box-shadow: none;
+  color: var(--sub-headline);
+}
+
+@media print {
+  body {
+    padding: 0rem;
+  }
+
+  section,
+  div {
+    page-break-inside: avoid;
+  }
+
+  .pdf {
+    display: none;
+  }
+}
+
+	</style>
+	
+	</head>
+	<body>
+	
+	<div id="resume">
+		  <div class="header">
+		    <h1>Michael Juniper</h1>
+		  </div>
+		  
+		  <p>Principal Software Developer</p>
+		
+		    <p class="grey">Fort Collins, US</p>
+		
+		    <p class="grey">I am a mostly front-end web developer, though I&#x27;ve done some back end stuff in the past. In recent years my particular focus has been on &quot;front of the front end&quot; - where HTML, CSS, &amp; Javascript come together to produce the UI that users experience.</p>
+		
+				<section class="position">
+						<h2>Work Experience</h2>
+					<h3>
+							<a target="_blank" rel="noopener" href="https://dc.esri.com/"></a>
+					</h3>
+		
+						<h4>
+						    Principal Software Engineer
+						
+						      | Sep, 2013
+						  
+						      - Current
+						</h4>
+						
+						  <div class="summary">
+						    <p>I lead a team of developers building ArcGIS Hub. I build UI using Ember.js &amp; Stenciljs but I have my eye on the full stack.</p>
+						  </div>
+						
+				</section>
+				<section class="position">
+					<h3>
+							<a target="_blank" rel="noopener" href="https://www.dtsgis.com/our-services/services/"></a>
+					</h3>
+		
+						<h4>
+						    Senior Software Developer
+						
+						      | Jan, 2008
+						  
+						    - Sep, 2013
+						</h4>
+						
+						  <div class="summary">
+						    <p>I architected, and built fairly complex web applications for state DOTs. I often also served as a technical project manager with frequent client contact. I occasionally supervised junior developers. The apps I built usually dealt with management or visualization of traffic data or highway construction projects. There was typically a mapping component; sometimes it was central to the app, sometimes not.</p>
+						  </div>
+						
+						  <ul class="highlights">
+						      <li>Online Transportation Information System (OTIS) - Colorado Department of Transportation: A public facing portal for disseminating CDOT&#x27;s traffic count and highway data to the public.</li>
+						      <li>Traffic Analysis Geospatial Information System (TAGIS) - Colorado Department of Transportation</li>
+						      <li>Interactive Funding Map - National Center for Safe Routes to School: A web mapping application which visualizes federally funded Safe Routes to Scholl projects across the US.</li>
+						  </ul>
+				</section>
+				<section class="position">
+					<h3>
+							<a target="_blank" rel="noopener" href="https://www.sanborn.com/"></a>
+					</h3>
+		
+						<h4>
+						    GIS Software Developer
+						
+						      | Jan, 2007
+						  
+						    - Dec, 2007
+						</h4>
+						
+						  <div class="summary">
+						    <p>Served as a member of a team building desktop applications for government clients utilizing Microsoft .NET and ESRI ArcObjects.</p>
+						  </div>
+						
+				</section>
+				<section class="position">
+					<h3>
+							<a target="_blank" rel="noopener" href="https://www.ramseycounty.us/residents/property/maps-surveys"></a>
+					</h3>
+		
+						<h4>
+						    GIS Technician
+						
+						      | Sep, 2004
+						  
+						    - Dec, 2006
+						</h4>
+						
+						  <div class="summary">
+						    <p>Developed various ArcGIS extensions to automate colleague&#x27;s tasks. Served as guest lecturer on ArcGIS at St Paul College.</p>
+						  </div>
+						
+				</section>
+				<section class="position">
+						<h2>Education</h2>
+					<h3>Juniata College</h3>
+					<h4>
+							Bachelor of Science
+		
+								-
+							Geology
+						
+						    | Feb, 2022
+						
+						  - May, 1992
+					</h4>
+				</section>
+			<h2>Contact Information</h2>
+			<section class="contact">
+				<p>
+					<span>Website:</span>
+					<a href="mikejuniper.com" target="_blank" rel="noopener">mikejuniper.com</a>
+				</p>
+		
+					<p>
+						<span>Email:</span>
+						<a href="mailto:mike@mikejuniper.com" target="_blank" rel="noopener noreferrer">mike@mikejuniper.com</a>
+					</p>
+		
+					<p>
+						<span>Phone:</span> 970.430.6685
+					</p>
+		
+			</section>
+	</body>
+</html>
