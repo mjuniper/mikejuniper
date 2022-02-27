@@ -20,6 +20,7 @@ jobs:
       - name: Install and build
         run: |
           npm install
+          touch docs/index.html
           npm run build
           npm run export
 
