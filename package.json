@@ -9,6 +9,7 @@
   "devDependencies": {
     "jsonresume-theme-actual": "^0.1.6",
     "jsonresume-theme-elegant": "^1.16.1",
+    "jsonresume-theme-jupe": "^1.16.3",
     "resume-cli": "^3.0.6"
   },
   "scripts": {
@@ -26,8 +27,5 @@
   "bugs": {
     "url": "https://github.com/mjuniper/mikejuniper/issues"
   },
-  "homepage": "https://github.com/mjuniper/mikejuniper#readme",
-  "dependencies": {
-    "jsonresume-theme-jupe": "^1.16.1"
-  }
+  "homepage": "https://github.com/mjuniper/mikejuniper#readme"
 }
