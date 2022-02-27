@@ -12,7 +12,7 @@
     "email": "mike@mikejuniper.com",
     "phone": "970.430.6685",
     "website": "https://www.mikejuniper.com",
-    "summary": "I am a mostly front-end web developer, though I've done some back end stuff in the past. In recent years my particular focus has been on \"front of the front end\" - where HTML, CSS, & Javascript come together to produce the UI that users experience.\n\r\n\rThe data for this resume is stored in JSON format which is used to generate this HTML page. See the repo: https://github.com/mjuniper/mikejuniper.",
+    "summary": "I am a mostly front-end web developer, though I've done some back end stuff in the past. In recent years my particular focus has been on \"front of the front end\" - where HTML, CSS, & Javascript come together to produce the UI that users experience.\n\r\n\rThe data for this resume is stored in JSON format which is used to generate this HTML page. See [the repo](https://github.com/mjuniper/mikejuniper).",
     "location": {
       "address": "2268 Tarragon Lane",
       "postalCode": "80521",

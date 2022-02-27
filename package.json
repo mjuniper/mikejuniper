@@ -12,7 +12,7 @@
     "resume-cli": "^3.0.6"
   },
   "scripts": {
-    "build": "resume export ./docs/index.html --theme elegant",
+    "build": "resume export ./docs/index.html --theme jupe",
     "export": "resume export ./docs/michael-juniper-resume.pdf --theme actual --format pdf",
     "start": "resume serve --theme elegant",
     "test": "resume validate"
@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/mjuniper/mikejuniper/issues"
   },
-  "homepage": "https://github.com/mjuniper/mikejuniper#readme"
+  "homepage": "https://github.com/mjuniper/mikejuniper#readme",
+  "dependencies": {
+    "jsonresume-theme-jupe": "^1.16.1"
+  }
 }
