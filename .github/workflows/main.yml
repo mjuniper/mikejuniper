@@ -17,13 +17,17 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Install and build
+      - name: Install & test
         run: |
           npm install
+          npm run test
+
+      - name: Build & export
+        run: |
           npm run build
           npm run export
 
-      - name: Commit published HTML
+      - name: Commit published resume
         id: commit
         run: |
           git config --local user.email "action@github.com"
