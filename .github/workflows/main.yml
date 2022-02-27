@@ -16,13 +16,13 @@ jobs:
     needs: check_run
     steps:
       - uses: actions/checkout@v2
-      - uses: kelvintaywl/action-jsonresume-export@v1
-        name: Export resume as HTML
-        with:
-          theme: elegant
-          resume_filepath: resume.json
-          # modifies the index.html in-place
-          output_filepath: docs/index.html
+
+      - name: Install and build
+        run: |
+          npm install
+          npm run build
+          npm run export
+
       - name: Commit published HTML
         id: commit
         run: |
@@ -35,9 +35,10 @@ jobs:
           else
             echo ::set-output name=exit_code::1
           fi
+          
       - name: Push changes
         uses: ad-m/github-push-action@master
         if: steps.commit.outputs.exit_code == 0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
+          branch: gh-pages
