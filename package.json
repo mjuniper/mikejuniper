@@ -1,0 +1,30 @@
+{
+  "name": "mikejuniper",
+  "description": "Formerly a jekyll blog, this is now the home of my resume in [jsoneresume](https://jsonresume.org/) format.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {
+    "jsonresume-theme-actual": "^0.1.6",
+    "jsonresume-theme-elegant": "^1.16.1",
+    "resume-cli": "^3.0.6"
+  },
+  "scripts": {
+    "build": "resume export ./docs/index.html --theme elegant",
+    "export": "resume export ./docs/michael-juniper-resume.pdf --theme actual --format pdf",
+    "start": "resume serve --theme elegant",
+    "test": "resume validate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjuniper/mikejuniper.git"
+  },
+  "author": "Michael Juniper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjuniper/mikejuniper/issues"
+  },
+  "homepage": "https://github.com/mjuniper/mikejuniper#readme"
+}
