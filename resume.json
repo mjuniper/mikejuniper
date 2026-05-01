@@ -35,7 +35,7 @@
       "position": "Principal Software Engineer",
       "website": "https://dc.esri.com/",
       "startDate": "2013-09",
-      "summary": "I lead a team of developers building [ArcGIS Hub](https://www.esri.com/en-us/arcgis/products/arcgis-hub/overview). I build UI using Ember.js & Stenciljs but I try to keep one eye on the full stack.",
+      "summary": "I lead a team of developers building [ArcGIS Hub](https://www.esri.com/en-us/arcgis/products/arcgis-hub/overview). I build UI using Lumina, a custom web components framework based on [Lit](https://lit.dev/) but I try to keep one eye on the full stack.",
       "highlights": []
     },
     {
